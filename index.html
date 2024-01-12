@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Survey Form" />
+    <title>Survey</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">Effectiveness of hands-on code learning</p>
+      <form id="survey-form" >
+        <fieldset>
+        <label id="name-label" >Enter Your First Name: <input placeholder="Name" id="name" type="text" required /></label>
+        <label id="email-label" >Enter Your Email: <input placeholder="Email" id="email" type="email" required /></label>
+        <label id="number-label" >Enter Your Age: <input placeholder="Age" id="number" type="number" min="15" max="120" required /></label>
+        <label class="label-name">Best way to learn code?
+          <select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Learn by doing</option>
+            <option value="2">Learn by watching</option>
+          </select>
+        </label>
+        <label><p class="label-name">Location</p>
+          <input type="radio" name="study-location" value="inline" checked /> At home</label>
+        <labe ><input type="radio" name="study-location" value="inline" /> At school</label>
+        <p class="label-name">Type of device</p>
+        <label><input type="checkbox" value="study-location" checked /> Computer</label>
+        <label><input type="checkbox" value="study-location"/> iPad</label>
+        </fieldset>
+        <label class="comment">Tell us some of the projects you've done so far?<br>
+          <textarea rows="2" cols="35"></textarea>
+        </label>
+        <div>
+          <input type="submit" id="submit" />
+        </div>
+      </form>
+  </body>

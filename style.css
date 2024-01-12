@@ -1,0 +1,75 @@
+body {
+    width: 100%
+    height: 100vh;
+    margin: 0;
+    background-color: #DEFFF9;
+    color: #38BA00;
+    font-family: sans-serif;
+  }
+  
+  input, textarea {
+    background-color: #DEFFF9;
+    color: #38BA00;
+  }
+  
+  input[type="radio"] {
+    filter: hue-rotate(-100deg);
+  }
+  
+  input[type="checkbox"] {
+    filter: hue-rotate(-100deg);
+  }
+  
+  input[type="radio"] {
+    filter: hue-rotate(-100deg);
+  }
+  
+  select[id="dropdown"] {
+    color: #38BA00;
+  }
+  
+  #title {
+    margin-top: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  #description {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  fieldset {
+    max-width: 267px;
+    margin-inline: auto;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  #name-label, #email-label, #number-label {
+    margin-bottom: 20px;
+  } 
+  
+  .label-name {
+    margin-bottom: 10px;
+  }
+  
+  .comment {
+    max-width: 300px;
+    margin-inline: auto;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  #submit {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 100px;
+  }
